@@ -18,38 +18,25 @@
 
 
 <pre>
-├───packages
+────packages
 │   ├───package1
 │   │   ├───connectors
-│   │   │   │   db1_conn.py
-│   │   │   │
-│   │   │   └───__pycache__
-│   │   │           db1_conn.cpython-39.pyc
+│   │   │       db1_conn.py
 │   │   │
 │   │   ├───queries
-│   │   │   │   db1_query.py
-│   │   │   │   query_executor.py
-│   │   │   │
-│   │   │   └───__pycache__
-│   │   │           db1_query.cpython-39.pyc
-│   │   │           query1.cpython-39.pyc
-│   │   │           query_executor.cpython-39.pyc
+│   │   │       db1_query.py
+│   │   │       query_executor.py
 │   │   │
 │   │   └───transformers
-│   │       │   db_etl_1.py
-│   │       │
-│   │       └───__pycache__
-│   │               db_etl_1.cpython-39.pyc
+│   │           db_etl_1.py
 │   │
 │   └───package2
 ├───project1
-│   │   main.py
-│   │   __init__.py
-│   │
-│   └───__pycache__
-│           __init__.cpython-39.pyc
+│       main.py
+│       __init__.py
 │
 └───project2
         main.py
         __init__.py
+
 </pre>
