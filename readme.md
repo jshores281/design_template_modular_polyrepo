@@ -18,6 +18,7 @@
 
 
 <pre>
+
 └───projects
     │   .gitignore
     │   readme.md
@@ -35,13 +36,24 @@
     │   │           db_etl_1.py
     │   │
     │   └───package2
+    │       ├───connectors
+    │       │       db2_conn.py
+    │       │
+    │       ├───queries
+    │       │       db2_query.py
+    │       │       query_executor.py
+    │       │
+    │       └───transformers
+    │               db_etl_2.py
+    │
     ├───project1
-    │       main.py
+    │       entrypoint_1.py
     │       __init__.py
     │
     └───project2
-            main.py
+            entrypoint_2.py
             __init__.py
+
 
 
 </pre>
