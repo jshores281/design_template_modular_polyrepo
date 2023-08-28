@@ -18,25 +18,30 @@
 
 
 <pre>
-────packages
-│   ├───package1
-│   │   ├───connectors
-│   │   │       db1_conn.py
-│   │   │
-│   │   ├───queries
-│   │   │       db1_query.py
-│   │   │       query_executor.py
-│   │   │
-│   │   └───transformers
-│   │           db_etl_1.py
-│   │
-│   └───package2
-├───project1
-│       main.py
-│       __init__.py
-│
-└───project2
-        main.py
-        __init__.py
+└───projects
+    │   .gitignore
+    │   readme.md
+    │
+    ├───packages
+    │   ├───package1
+    │   │   ├───connectors
+    │   │   │       db1_conn.py
+    │   │   │
+    │   │   ├───queries
+    │   │   │       db1_query.py
+    │   │   │       query_executor.py
+    │   │   │
+    │   │   └───transformers
+    │   │           db_etl_1.py
+    │   │
+    │   └───package2
+    ├───project1
+    │       main.py
+    │       __init__.py
+    │
+    └───project2
+            main.py
+            __init__.py
+
 
 </pre>
